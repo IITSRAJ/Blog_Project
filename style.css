@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system;
+
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: grey;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    align-items: center;
+
+}
+
+.signup-button {
+    background: none;
+    color: grey;
+    border: 1px solid grey;
+    height: 30px;
+    padding: 3px 7px;
+    font-weight: 500;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+
+.subs {
+    text-decoration: none;
+    font-weight: 600;
+    color: grey;
+    padding: 3px;
+    margin: 9px;
+}
+
+
+.nav-b {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.icon{
+    display: none;
+}
+.nav-b a {
+    text-decoration: none;
+    color: grey;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.nav-item:hover {
+    background-color: grey;
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.box1 {
+    background-color: #343a40;
+    height: 35vh;
+    color: #fff;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 7px;
+
+}
+
+.box1-title {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.box1-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 50%;
+
+}
+
+.box1-base {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box2 {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 500;
+}
+
+.box2-card {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    margin: 5px;
+    border: 1px solid grey;
+    -webkit-box-shadow: 0px 7px 7px -3px rgba(77, 75, 77, 1);
+    -moz-box-shadow: 0px 7px 7px -3px rgba(77, 75, 77, 1);
+    box-shadow: 0px 7px 7px -3px rgba(77, 75, 77, 1);
+}
+
+.card-content {
+    padding: 20px 15px;
+    text-align: left;
+
+}
+
+.card-thumbnail {
+    background-color: #55595c;
+    color: white;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.card-title {
+    font-weight: 500;
+    color: #017bff;
+
+}
+
+.card-header {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+.card-footer {
+    text-decoration: none;
+    color: #017bff;
+    font-weight: 600;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.box3 a {
+    color: #017bff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.br {
+    margin-top: 0.5em;
+}
+
+.brmedium {
+    margin-top: 1em;
+}
+
+.box3-card1 {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.box3-card2 {
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.card2-about {
+    background-color: #f8f9fa;
+    padding: 22px 20px;
+    border-radius: 7px;
+    width: 70%;
+
+}
+
+.card2-archives {
+    padding: 22px 20px;
+}
+
+.card2-archives a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #017bff;
+    font-weight: 600;
+}
+
+.card2-elsewhere {
+    padding-left: 20px;
+}
+
+.card2-elsewhere a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #017bff;
+    font-weight: 600;
+}
+
+
+.old-button {
+    border: 1px solid #017bff;
+    border-radius: 20px;
+    padding: 3px 6px;
+    background: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: blue;
+}
+
+.new-button {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 3px 6px;
+    background: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+
+
+.old-button:hover {
+    background-color: #017bff;
+    color: white;
+}
+
+.but-hover:hover {
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    text-decoration: none;
+    background-color: #F8F8F9;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    border-top: 3px solid #e2e2e2;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #017bff;
+    font-weight: 600;
+}
+
+
+  @media screen and (max-width: 400px) {
+    .nav-b a {display: none;}
+
+    .nav-b a.icon {
+        display: block;
+
+    }
+    .nav-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .nav-b.responsive {position: relative;}
+    .nav-b.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav-b.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    }
+
+@media screen and (max-width: 400px) {
+    .box1 {
+        height: 50vh;
+    }
+
+    .box1-content {
+        width: 100%;
+    }
+
+    .box2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+
+    .card-thumbnail {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+    }
+
+    .card-content {
+        padding: 20px 15px;
+        text-align: left;
+    }
+
+    .box3 {
+        padding: 5px;
+        flex-direction: column;
+    }
+
+    .box3-card1 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .box3-card2 {
+        width: 85%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .card2-about {
+        width: 100%;
+    }
+
+    .card2-archives {
+        padding: 22px 20px;
+    }
+
+    .card2-elsewhere {
+        padding-left: 20px;
+    }
+
+    .card2-archives a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        color: #017bff;
+        font-weight: 600;
+    }
+
+}
